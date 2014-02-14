@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+      <script type="text/javascript">
+          var colors = [];
+          var doclick = function (color) {
+              colors.push(color);
+              if (colors.length > 1)
+              {
+                  if (colors[0] == 'red' &&
+                      colors[1] == 'orange') {
+                        alert("you win!")
+                  } else {
+                      alert("you lose");
+                  }
+              }
+                  
+          };
+      </script>
+    <title>Cristiano Ronaldo</title>
+      <link rel="stylesheet"  href="game.css" type="text/css"/>
+  </head>
+  <body>
+    <div onclick="doclick('red');" id="red-block">red</div>
+    <div onclick="doclick('orange');" id="orange-block">orange</div>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+#orange-block {
+    background-color: orange;
+    width: 100px;
+    height: 350px;
+    display: inline-block;
+} 
+#yellow-block {
+    background-color: yellow;
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+}
+#green-block {
+    background-color: green;
+    width: 100px;
+    height: 250px;
+    display: inline-block;
+}
+#blue-block {
+    background-color: blue;
+    width: 100px; 
+    height: 300px;
+    display: inline-block;
+}
+#violet-block {
+    background-color: violet;
+    width: 100px; 
+    height: 100px;
+    display: inline-block;
+}
+#red-block {
+    background-color: red;
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+}
+body {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.57), rgb(0, 0, 0)), url("triangle.jpg");
+}
+.clickedblocks { 
+    color: white; 
+}

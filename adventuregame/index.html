@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+      <script type="text/javascript">
+          var colors = [];
+          var doclick = function (color) {
+              document.getElementById(color+"-block").className = "clickedblocks";
+              colors.push(color);
+              if (colors.length > 5)
+              {
+                  if (colors[0] == 'red',
+                      colors[1] == 'orange', 
+                      colors[2] == 'yellow',
+                      colors[3] == 'green',
+                      colors[4] == 'blue' &
+                      colors[5] == 'violet') 
+                      {alert("Great job. You won! But do you know the trick? Test out your theory by reloading the page.")} 
+                  else {alert("You lose, refresh page to play again.");  }
+              }
+                  
+          };
+      </script>
+    <title>Color Game</title>
+      <link rel="stylesheet"  href="game.css" type="text/css"/>
+  </head>
+  <body>
+    <p><font color="white"><font size="10">Welcome to the Color Game! </font></font></p>
+    <p></p>
+    <p> <font color= "white"> The object of this game is to put the colors in order from smallest to largest by clicking on them. 
+You must click on each color at least once. You only have 6 clicks and you cannot unclick! So choose wisely & good luck!</font></p>
+    <div onclick="doclick('violet');" id="violet-block">violet</div>
+    <div onclick="doclick('yellow');" id="yellow-block">yellow</div>
+    <div onclick="doclick('red');" id="red-block">red</div>
+    <div onclick="doclick('green');" id="green-block">green</div>
+    <div onclick="doclick('blue');" id="blue-block">blue</div>
+    <div onclick="doclick('orange');" id="orange-block">orange</div>
+    <body> </body>
+    </body>
+</html>

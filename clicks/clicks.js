@@ -16,8 +16,8 @@ var vy = Math.random() * 10 - 5;
 var x = $(window).width() / 2;
 var y = $(window).height() / 2;
 var theta = 0;
-var vtheta = Math.PI / 180;
-var r = 60;
+var vtheta = Math.PI / 10;
+var r = 100;
 setInterval(function () {
     $('.logo').css({
         'left': x + r * Math.cos(theta),

@@ -1,8 +1,12 @@
 h1.clicked {
     color: darksalmon;
 }
+.rotated {
+    -webkit-transform: rotateX(1080deg);
+    -webkit-transform: rotateY(1080deg);
+}
 img.logo {
-    transition: 2s;
+    transition: 1s;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -11,6 +15,3 @@ img.logo {
     margin-left: -64px;
     margin-top: -64px;
 }
-.hide {
-    opacity: 0%;
-        }
